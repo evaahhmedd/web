@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section{
+    padding: 50px 0px;
+}
+.container{
+width: 1140px;
+margin: auto;
+
+}
+header{
+background-color: #87509C;
+ color: white;
+ width: 100%;
+ float: left; 
+}
+nav{
+    width:100%;
+float: left;
+padding: 15 px;
+
+}
+.logo-part{
+    width: 40%;
+    float: left;
+    padding: 20px;
+ 
+}
+.manu-part{
+      width: 60%;
+      float: left;
+      padding: 20px;
+      
+}
+.manu-part ul{
+     margin: 10px 0px;
+     text-align: right;
+}
+.manu-part li{
+        display: inline-block;
+        margin: 0px 15px;
+}
+.manu-part a{
+       text-decoration: none;
+       font-size: 20px;
+       font-weight: 600;
+       color: white;
+}
+.hero-writing-part {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.hero-writing-part h1{ 
+    font-size: 35px;
+    width: 60%;
+    margin: 100px auto 20px;
+}
+.hero-writing-part a button{
+     background-color: orange;
+     padding: 10px 20px;
+     color: white;
+     border: none;
+     margin-bottom: 80px;
+} 
+.underline{
+ border-top: 5px solid rgba(0, 0, 0, 0.219);
+ margin: 15px auto;
+ width: 7%;
+
+}
+
+/* Service section start */
+#service{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #17C2A4;
+}
+.service-writing-part{
+    margin: 50px;
+    
+}
+.service-writing-part h2{
+        text-transform: uppercase;
+        font-size: 38px;
+        color: white;
+
+}
+.service-writing-part p{
+color: white;
+font-size: 20px;
+}
+
+.feature-part{
+    width: 23%;
+    margin: 0px 1%;
+    float: left;
+    color: white;
+    padding: 30px;
+}
+.feature-part img{
+
+}
+.feature-part h3{
+font-size: 19px;
+ margin: 15px;
+ text-transform: uppercase;
+}
+
+.feature-part p{
+font-size: 16px;
+margin: 30px;
+}
+
+
+/* Service section end  */
+/* Service section start part-2  */
+#service-2{
+ width: 100%;
+ float: left;
+ text-align: center;
+ background-color: #E7F1F8;
+}
+.service-writing-part-2{
+color: black;
+}
+.service-writing-part-2 h2{
+font-size: 30px;
+text-transform: uppercase;
+margin-top: 50px;
+}
+.service-writing-part-2 p{
+    font-size: 18px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+}
+.service-feature-part-2{
+ color: black;
+}
+
+.feature-part-2{ 
+     width: 23% ;
+    margin: 10px;
+    padding: 20px;
+ float: left;
+
+}
+.feature-part-2 img{
+
+}
+
+.feature-part-2 h3{
+text-transform: uppercase;
+margin-top: 25px;
+margin-bottom: 3px;
+font-size: 25px;
+}
+.feature-part-2 a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 40;
+    color: rgb(8, 130, 211);
+    text-transform: uppercase;
+    
+ 
+}
+.feature-part-2 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cstm-twi{
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(8, 130, 211);
+}
+.cstm-fb{
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(8, 130, 211);
+}
+.cstm-en{
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(8, 130, 211);
+
+}
+.cstm-lin{
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(8, 130, 211);
+}
+
+
+
+
+/* Service section part-2 end  */
+/* Service section part-3 start */
+
+#service-3{
+    width: 100%;
+   float: left;
+   text-align: center;
+   background-color: #FFFFFF;
+}
+.service-writing-part-3{
+    margin-bottom: 60px;
+
+
+}
+.service-writing-part-3 h2{
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 30px;
+}
+.service-writing-part-3 p{
+        font-size: 18px;
+        text-transform: initial;
+}
+.service-feature-part-3{
+margin: 11%;
+}
+
+.feature-part-3{
+    width: 23;
+    float: left;
+    margin: 2%;
+
+}
+
+.feature-part-3 img{
+ 
+}
+.feature-part-3 h3{
+    text-transform: uppercase;
+
+}
+/* Service section part-3 end  */
+
+/* Service section part-3 start  */
+#service-4{
+    width: 100%;
+    float: left;
+    text-align: center;
+ background-color: #FFDD99;
+}
+.service-writing-part-4{
+
+}
+.service-writing-part-4 h2{
+text-transform: uppercase;
+font-size: 30px;
+}
+.service-writing-part-4 p{
+
+}
+.service-writing-part-4 a button{
+    margin: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 12px 20px;
+    border: none;
+    background-color:#EBC985 ;
+  
+}
+#main{
+        background-color: #FFFFFF;
+}
+.service-feature-part-4{
+   
+    
+
+}
+.feature-part-4{
+    width: 45%;
+    float: left;
+    margin: 2%;
+}
+.feature-part-4 img{
+   
+}
+.feature-part-4 p{
+ margin: 10px ;
+ text-align: center;
+ font-size: 15px;
+ text-transform: uppercase;
+
+}
+
+.service-feature-part-4 a button{
+    background-color: #17C2A4;
+    border: none;
+    color: #FFFFFF;
+    padding: 25px 40px;
+}
+
+/* Service section part-4 end  */
+/* Service section part-5 start  */
+#service-5{
+    background-color: #D74680;
+    color: #FFFFFF;
+    width: 100%;
+    float: left;
+    text-align: center;
+    
+    
+}
+.service-writing-part-5{
+    
+}
+.service-writing-part-5 h2{
+text-transform: uppercase;
+}
+.service-writing-part-5 p{
+
+}
+.service-feature-part-5{
+    width: 100%;
+    float:left;
+    padding: 50px;
+}
+#row-1{
+width: 100%;
+float: left;
+}
+#row-2{
+    width: 100%;
+    float: left;
+}
+.feature-part-5{
+    /* width: 23%;
+    float: left; */
+
+}
+.feature-part-5 img{
+       width: 15%;
+    float: left;
+    margin: 20px;
+
+
+}
+.feature-writing-part-5{
+    width: 21%;
+    float: left;
+    margin: 1%
+ 
+
+}
+.feature-writing-part-5 p{
+       /* text-decoration-line: initial; */
+       padding: 25px;
+       font-size: 14px;
+}
+.feature-writing-part-5 h3{
+    text-transform: uppercase;
+    
+}
+.feature-writing-part-5 h4{
+color: #EBC985;
+padding: 4px;
+}
+/* Service section part-5 end  */
+/* Contact section part-6 start  */
+ #contact{
+   width: 100%;
+   float: left;
+   background-color: #3C5499 ;
+   color: #FFFFFF;
+   text-align: center;
+ }
+.contact-writing-part{
+           margin: auto;
+}
+.contact-writing-part h2{
+
+    text-transform: uppercase;
+}
+.contact-writing-part p{
+    margin-bottom: 50px;
+
+}
+
+form{
+ width: 100%;
+ float: left;
+ text-align: center;
+}
+
+input{
+ width: 49%;
+ float: left;
+ padding: 20px;
+ color: #FFFFFF;
+ border: none;
+ font-size: 20px;
+}
+input[type="text"] {
+    margin-right: 1%;
+    font-size: 15px;
+    background-color: #273A71;
+    
+
+}
+input[type="email"] {
+    background-color: #273A71;
+    margin-left: 1%;
+    font-size: 15px;
+    
+
+}
+input[type="submit"]{
+    background-color: #30BAE7;
+    border: none;
+    color: #FFFFFF;
+    width: 25%;
+    margin-top: 35px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 38.5% ;
+}
+input::placeholder{
+    color: #FFFFFF;
+
+}
+textarea{
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+    background-color: #273A71;
+    color: #FFFFFF;
+    font-size: 18px;
+    border: none;
+
+
+}
+textarea::placeholder{
+    color: #FFFFFF;
+    font-size: 17px;
+
+}
+
+/* Contact section part-6 end  */
+/* footer section part start */
+footer{
+    width: 100%;
+    float: left;
+    color: #FFFFFF;
+    background-color: #344B8E ;
+    width: 100%;
+    float: left;
+    padding: 35px;
+    
+    
+}
+
+footer ul{
+    margin: 15px 20px;
+    text-align: center;
+    
+}
+footer li{
+    display: inline-block;
+    margin: 20px 45px;
+    
+
+}
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+
+/* footer section part end */
